@@ -8,6 +8,8 @@ You should connect the teensy to a 5V usb source.
 - Connect the WS2812B **VSS** to any ground **GND** port on the teensy.
 - Connect the WS2812B **DIN** to the **led** (the **pin 13**) of the teensy.
 
+![shematic of the teensy + the led](teensyWS.jpg)
+
 Setup the rust compiler for this repository:
 ```
 sh ./configure.sh
